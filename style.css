@@ -1,0 +1,100 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+*{
+    margin:0;
+    padding: 0;
+}
+section{
+    margin-bottom: 30px;
+}
+
+.header-section{
+    display: flex;
+    background-image: url('images/top-banner.png');
+    background-repeat: no-repeat;  
+}
+.header-section .highlight{
+    color:green;
+}
+.header-section h1{
+    line-height: 100px;
+    font-size:45px;
+}
+.header-section h4{
+    padding:20px 0px;
+}
+.half-header{
+    width:50%;
+    padding:20px 80px;
+}
+.half-header img{
+    width:80%;
+}
+.half-header button a{
+    text-decoration: none;
+    color: #fff;
+    font: weight 900px;
+}
+.btn  {
+    padding:13px 40px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right,#FF8C69,#FF6A4D );
+    border:none;
+    margin-top: 10px;
+}
+.dream-section{
+    display: flex;
+    background-image: url('images/dream-bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    text-align: left;
+}
+.half-dream{
+    padding:20px 80px;
+    width:50%;
+}
+.half-dream h1{
+    font-size: 45px;
+    padding-bottom:50px;
+}
+.half-dream h4 {
+    padding-bottom: 15px;
+}
+.half-dream img{
+    width: 80%;
+}
+
+
+.experiences-section h1{
+    font-size: 45px;
+    padding-bottom:47px ;
+}
+.experiences-section h4{
+    font-size:20px ;
+    color: forestgreen;
+    padding-bottom: 20px;
+}
+.developer-section{
+   display: flex;
+}
+.developer{
+    width:40%;
+    text-align: justify;
+    margin: 0px 80px;
+    padding:30px 20px 80px 20px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    
+}
+.junior-developer{
+    border-left: 5px solid blue;
+}
+.full-stack-developer{
+    border-left: 5px solid tomato;
+}
+footer p{
+    text-align: center;
+    padding: 100px 0px 10px;
+}
